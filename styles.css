@@ -4,13 +4,11 @@ body {
   font-family: Arial, sans-serif;
 }
 
-header > h1 {
+header {
+  background-color: white;
   text-align: center;
   top: 10px;
   border: 5px solid red;
-  
+  padding: 10px 10px;
 }
 
-h1 {
-  color: lightgreen;
-}
