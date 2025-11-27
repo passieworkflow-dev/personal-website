@@ -6,11 +6,12 @@ body {
 
 header {
   background-color: white;
-  width: 50%;
+  width: 35%;
   top: 10px;
   left: 50%;
   border: 5px solid red;
-  border-radius: 10px;
+  border-radius: 30px;
+  transform: translate(50%, 0);
   padding: 10px 10px;
 }
 
