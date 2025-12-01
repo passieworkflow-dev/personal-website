@@ -92,16 +92,23 @@ section {
 }
 
 section h2 {
-  width: 100vw;
-  padding: 5px 20px;
-  margin-left: calc(50% - 50vw);
-  margin-right: 0;
-  margin-top: 0;
-  margin-bottom: 20px;
-  background-color: #ddc50b82;
-  text-align: left;
-  border: 2px solid black;
-  box-shadow: 0 2px 5px;
+  display: inline-block;
+  background: linear-gradient(to right,lightgreen, green);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0 auto 20px;
+  text-transform: uppercase;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section h2:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.8)
 }
 
 button {
